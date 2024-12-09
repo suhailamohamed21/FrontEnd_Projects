@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --padding: 10px;
+    --margin: 10px;
+    --selection_color: #eee;
+}
+
+.page{
+    background-color: #262642;
+    width: 100% ;
+    height: 900px;
+    margin: 20px auto;
+    padding: calc(var(--padding )/ 2);
+}
+.header{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: var(--padding);
+    width: fit-content;
+    /* background-color: var(--selection_color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+.login{
+    color: white;
+    font-size: 15px;
+    padding: var(--padding);
+    /* background-color: var(--selection_color); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.1;
+    margin-left: 100px;
+}
+
+.join{
+    padding: var(--padding);
+    margin-right: 100px;
+    margin-left: 10px;
+    width: 100px;
+    background-color: rgb(81, 151, 243);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: var(--padding);
+    color: white;
+    /* background-color: var(--selection_color); */
+    margin: 20px;
+    /* width: fit-content; */
+}
+.links li{
+    padding: 0 10px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    color:rgb(55, 138, 247);
+}
+.log{
+    color: white;
+    text-decoration: none;
+}
+.log:hover{
+    color:rgb(55, 138, 247);
+}
+
+.page .main{
+    padding: var(--padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    
+}
+.welcome{
+    color: rgb(55, 138, 247);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+.sell{
+    width: 400px;
+    height: 100px;
+    margin: var(--margin);
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.know{
+    width: 400px;
+    height: 100px;
+    margin: 10px auto;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.get{
+    color: white;
+    background-color: rgb(55, 138, 247);
+    border-color: rgb(55, 138, 247);
+    padding: 10px 20px;
+    margin: var(--margin);
+    border-radius: 5px;
+    text-align: center;
+}
+.learn{
+    color: rgb(55, 138, 247);
+    background-color: #262642;
+    padding: 10px 20px;
+    margin: var(--margin);
+    border-color: rgb(55, 138, 247);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: var(--padding);
+    margin: var(--margin);
+    margin-top: 50px;
+}
+.one{
+    width: 250px;
+    height: 200px;
+    padding: 25px;
+    color:black;
+    background-color: white;
+    margin: 10px ;
+
+}
+.one .line{
+    background-color:rgb(224, 134, 134);
+    height: 2px;
+    width: 50px;
+    margin: 20px;
+    margin-left: 0;
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(252, 205, 205);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.one .fa-face-meh{
+    font-size: 20px;
+    color: rgb(224, 100, 100);
+}
+.two{
+    width: 250px;
+    height: 200px;
+    padding: 25px;
+    color:black;
+    background-color: white;
+    margin: 10px ;
+    
+}
+.two .line{
+    background-color:rgb(224, 134, 134);
+    height: 2px;
+    width: 50px;
+    margin: 20px;
+    margin-left: 0;
+}
+.icon2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(151, 228, 151);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.two .fa-check-double{
+    font-size: 20px;
+    color: green;
+}
+.three{
+    width: 250px;
+    height: 200px;
+    padding: 25px;
+    color: white;
+    background-color: rgb(55, 138, 247);
+    margin: 10px ;
+}
+.three .line{
+    background-color:white;
+    height: 2px;
+    width: 50px;
+    margin: 20px;
+    margin-left: 0;
+}
+.icon3{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.three .fa-calendar-minus{
+    font-size: 20px;
+    color: rgb(55, 138, 247);
+}
+.title{
+    font-weight: bold;
+}
+.get:hover{
+    opacity: 0.6;;
+}
+.learn:hover{
+    opacity: 0.6;;
+}
+.join:hover{
+    opacity: 0.6;;
+}
