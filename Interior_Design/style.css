@@ -1,0 +1,251 @@
+:root{
+    --red: #f44336;
+    --light_gray: #f1f1f1;
+    --dark_gray: #616161;
+    --white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+p{
+    opacity: 0.9;
+}
+.container{
+    display: flex;
+
+}
+.header{
+    width: 300px;
+    background-color: var(--red);
+    color: #fff;
+    
+}
+.companyName{
+    margin-top: 90px;
+    font-size: 23px;
+    position: fixed;
+    padding: 33px;
+}
+
+.links{
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    line-height: 2.2;
+    padding: 15px;
+    width: 270px;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 15px;
+    width: 270px;
+}
+a:hover{
+    background-color: var(--white);
+    color: black;
+}
+.page{
+    width: 70%;
+    /* margin:auto; */
+    margin-left: 50px;
+}
+.pagetitle{
+    font-size: 64px;
+    margin-top: 90px;
+    
+}
+.showcase{
+    margin-bottom: 80px;
+}
+.title{
+    font-size: 48px;
+    color: var(--red);
+}
+hr{
+    width: 60px;
+    border: 5px solid red;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-bottom: 35px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 10px;
+}
+.images img{
+    width: 49%;
+    opacity: 0.8;
+}
+.images img:hover{
+    opacity: 1;
+}
+.services{
+    margin-bottom: 80px;
+}
+.services hr{
+    margin-bottom: 20px;
+}
+.services p{
+    margin-bottom: 18px;
+}
+.designers hr{
+    margin-bottom: 20px;
+}
+.designers p{
+    margin-bottom: 18px;
+}
+.aboutdesigner{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.team{
+    width: 33%;
+    height: fit-content;
+    background-color: var(--light_gray);
+}
+.team img{
+    filter: grayscale(60%);
+    width: 100%;
+    height: 50%;
+    opacity: 0.8;
+}
+.team .para{
+    padding-left: 15px;
+    padding-right: 25px;
+    font-size: 17px
+}
+.designerName{
+    font-size: 25px;
+}
+.designerposition{
+    color: var(--dark_gray);
+}
+.packages{
+    margin-bottom: 80px;
+}
+.packages hr{
+    margin-bottom: 20px;
+}
+.packages p{
+    margin-bottom: 18px;
+}
+.price{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+.offer{
+    background-color: var(--light_gray);
+    width:50%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    opacity: 0.9;
+    
+}
+.first{
+    color: var(--white);
+    font-size: 24px;
+    height: 100px;
+}
+.gray{
+    background-color: var(--dark_gray);
+}
+.red{
+    background-color: var(--red);
+}
+.bottom{
+    border-bottom: none;
+}
+.num{
+    font-size: 30px;
+    opacity: 1;
+}
+.room{
+    color: var(--dark_gray);
+    font-size: 17px;
+}
+.whitebutton{
+    padding: 15px 20px;
+    background-color: var(--white);
+    border: none;
+    font-size: 17px;
+}
+.redbutton{
+    padding: 15px 20px;
+    background-color: var(--red);
+    border: none;
+    color: var(--white);
+    font-size: 17px;
+}
+.redbutton:hover{
+    background-color: black;
+    color: var(--white);
+} 
+.whitebutton:hover{
+    background-color: black;
+    color: var(--white);
+}
+.contact{
+    margin-bottom: 80px;
+}
+.contact hr{
+    margin-bottom: 20px;
+}
+.contact p{
+    margin-bottom: 18px;
+}
+label{
+    opacity: 0.9;
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+}
+
+.contact button{
+    width: 100%;
+    background-color: var(--red);
+    border: none;
+    padding: 16px;
+    color: var(--white);
+    font-size: 17px;
+}
+.contact button:hover{
+    background-color: #a09f9f;
+    color: black;
+}
+
+.footer{
+    margin-left: -50px;
+    margin-right: -40px;
+    height: 100px;
+    text-align: right;
+    padding: 35px 40px 35px ;
+    background-color: var(--light_gray);   
+}
